@@ -17,12 +17,14 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+  padding-left: 350px;
 }
 
 .img-placeholder {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 300px;
 }
 
 .header,
@@ -35,14 +37,14 @@ body {
 .header {
   display: flex;
   padding-bottom: 70px;
-  padding-top: 10px;
+  padding-top: 20px;
+  justify-content: space-around;
 }
 
 .header-title {
   color: #e5e7eb;
   font-size: 24px;
   font-weight: bold;
-  align-items: center;
 }
 
 .header .header-links {
@@ -72,9 +74,9 @@ button.sign-up {
   border: 1px solid #3882f6;
   color: white;
   border-radius: 12px;
-  padding: 5px;
+  padding: 8px;
   width: 100px;
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .top-section .img-holder {
@@ -89,5 +91,5 @@ button.sign-up {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 250px;
 }

@@ -18,7 +18,7 @@ body {
 .pane-2,
 .pane-3,
 .pane-4 {
-  padding: 0 500px 0 500px;
+  padding: 0 400px 0 400px;
   flex: 1;
 }
 
@@ -71,14 +71,15 @@ ul {
   justify-content: space-between;
   align-items: center;
   gap: 36px;
+  padding: 100px 0 0 0;
 }
 
 .img-holder {
   background-color: rgb(133, 132, 132);
-  height: 100px;
+  height: 150px;
   width: 400px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 120px;
   color: rgba(228, 224, 224, 0.979);
 }
 
@@ -111,4 +112,8 @@ ul {
 .img {
   margin: 0;
   padding: 0;
+}
+
+.desc {
+  width: 500px;
 }

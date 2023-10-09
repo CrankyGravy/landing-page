@@ -18,7 +18,7 @@ body {
 .pane-2,
 .pane-3,
 .pane-4 {
-  padding: 0 300px 0 300px;
+  padding: 0 500px 0 500px;
   flex: 1;
 }
 
@@ -70,5 +70,45 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 10px; */
+  gap: 36px;
+}
+
+.img-holder {
+  background-color: rgb(133, 132, 132);
+  height: 100px;
+  width: 400px;
+  text-align: center;
+  padding-top: 80px;
+  color: rgba(228, 224, 224, 0.979);
+}
+
+.awesome-header {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding: 0;
+  margin: 0px;
+}
+
+.awesome-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 0;
+  margin: 0;
+}
+
+.sign-up-button {
+  background: #3882f6;
+  border: 1px solid #3882f6;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  padding: 8px;
+  width: 100px;
+  margin-top: 35px;
+}
+
+.img {
+  margin: 0;
+  padding: 0;
 }

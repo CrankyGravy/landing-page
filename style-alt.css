@@ -119,7 +119,6 @@ ul {
 }
 /* Second pane */
 .random-info-header {
-  font-size: 50px;
   display: flex;
   justify-content: center;
   font-size: 36px;
@@ -129,14 +128,21 @@ ul {
 
 .box-writing {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 70px;
+  padding-bottom: 100px;
 }
 
 .box {
   border-style: solid;
-  height: 300px;
-  width: 300px;
+  border-color: #3882f6;
+  border-radius: 10px;
+  border-width: thick;
+  height: 130px;
+  /* width: 120px; */
+  margin: 25px;
+  margin-bottom: 5px;
 }
 
 /* Third pane */
@@ -150,6 +156,13 @@ ul {
   padding: 100px 100px 0px 100px;
 }
 
+.box-info {
+  text-align: center;
+}
+
+.container {
+  max-width: 200px;
+}
 .thor {
   margin: 0;
   display: flex;

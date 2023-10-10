@@ -127,6 +127,18 @@ ul {
   color: #1f2937;
 }
 
+.box-writing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+}
+
 /* Third pane */
 .big-text {
   display: flex;

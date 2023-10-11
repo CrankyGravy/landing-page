@@ -39,6 +39,7 @@ body {
   background-color: #ffffff;
 }
 
+/* Pane 1 */
 /* Header section */
 .header {
   display: flex;
@@ -117,7 +118,7 @@ ul {
 .desc {
   width: 500px;
 }
-/* Second pane */
+/* Pane 2 */
 .random-info-header {
   display: flex;
   justify-content: center;
@@ -142,12 +143,11 @@ ul {
   border-radius: 10px;
   border-width: thick;
   height: 130px;
-  /* width: 120px; */
   margin: 25px;
   margin-bottom: 5px;
 }
 
-/* Third pane */
+/* Pane 3 */
 .big-text {
   display: flex;
   justify-content: center;
@@ -170,4 +170,44 @@ ul {
   display: flex;
   justify-content: flex-end;
   padding: 0 100px 50px 0;
+}
+
+/* Pane 4 */
+.my-container {
+  display: flex;
+  padding: 30px 50px 30px 50px;
+  margin: 150px 80px 150px 80px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.sign-up-button-inverted {
+  background: #3882f6;
+  border: 2px solid white;
+  font-size: 18px;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 30px 8px 30px;
+}
+
+.call-to-action {
+  font-size: 24px;
+  color: #f9faf9;
+  margin: 0;
+}
+
+.call-to-para {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  margin: 0;
+  font-size: 18px;
 }
